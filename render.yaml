@@ -1,0 +1,5 @@
+services: []
+cron:
+  - name: daily-color-bot
+    schedule: "0 22 * * *"  # 固定英國時間 BST 23:00
+    command: "python main.py"
