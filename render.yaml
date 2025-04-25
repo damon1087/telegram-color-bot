@@ -1,5 +1,0 @@
-services: []
-cron:
-  - name: daily-color-bot
-    schedule: "0 15 * * *"  # UTC時間 = 台灣/香港23:00
-    command: "python main.py"
